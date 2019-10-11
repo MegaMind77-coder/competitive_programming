@@ -4,6 +4,8 @@
 #include <math.h>
 #include <stdlib.h>
 
+//You need only #include<stdio.h> preprocessor in this program
+
 int solveMeFirst(int a, int b) {
   int  c=a+b;
    return c;
