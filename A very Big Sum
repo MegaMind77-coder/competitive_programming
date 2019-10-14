@@ -13,16 +13,16 @@ char** split_string(char*);
 
 // Complete the aVeryBigSum function below.
 long aVeryBigSum(int ar_count, long* ar) {
-    long sum;
+    long sum;                               //initialising long sum 
 
-    for(int i=0;i<ar_count;i=i+1)
+    for(int i=0;i<ar_count;i=i+1)           //for loop to scan array elements
     {
-       scanf("%ld",ar+i);
+       scanf("%ld",ar+i);                   
        
-       sum+=ar[i];
+       sum+=ar[i];                          //summing up the elements of the array and adding them
 
     }
-return sum;
+return sum;                                 //return int sum to the main function
 
 
 }
